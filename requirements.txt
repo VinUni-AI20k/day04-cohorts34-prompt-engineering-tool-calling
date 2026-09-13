@@ -1,13 +1,1 @@
-# Lab 4 chạy được HOÀN TOÀN bằng thư viện chuẩn của Python — KHÔNG cần cài gì.
-# (MockModel là model giả lập tất định, không cần API key.)
-#
-# Chỉ cài thêm nếu muốn chạy với MODEL THẬT Google Gemini (tùy chọn):
-#   pip install google-genai
-#   export GEMINI_API_KEY=...        # lấy key tại https://aistudio.google.com/apikey
-#   LAB_MODEL=gemini python run_tests.py
-#
-# (Muốn dùng qua Agent Platform / Vertex AI thay vì Developer API:
-#    export GOOGLE_GENAI_USE_VERTEXAI=true
-#    export GOOGLE_CLOUD_PROJECT=...  ; export GOOGLE_CLOUD_LOCATION=global )
-#
-# google-genai>=1.0
+google-genai>=1.0
