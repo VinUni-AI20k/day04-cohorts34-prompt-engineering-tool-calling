@@ -41,7 +41,7 @@ TEST_CASES = [
 
 
 def main() -> None:
-    model = get_model()  # mặc định MockModel; đặt LAB_MODEL=openai để dùng model thật
+    model = get_model()  # mặc định MockModel; đặt LAB_MODEL=gemini để dùng model thật
     passed = 0
     summary = []
 
